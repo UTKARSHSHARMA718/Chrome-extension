@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="popupBody">
+
+<head>
+    <link rel="stylesheet" href="popup.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Summarizer</h1>
+            <h5>"You made the right choice"</h5>
+            <h5> "now see how much time you'll save"</h5>
+        </div>
+        <div class="logoContainer">
+            <img src="./images/logo.png" alt="logo" class="logo">
+        </div>
+        <h5> Directly create summary/points for entire web-page</h5>
+        <div class="btnsContainer">
+            <button class="summary_btn btn">Summary</button>
+            <button class="major_points_btn btn">Major Points</button>
+        </div>
+        <h5>Or you can provide any text of your choice.</h5>
+        <div class="textInput">
+            <input type="text" class="textProvidedByUserForCreatingSummaryOrPoints"
+                placeholder="Text must consist of a min of 10 words.">
+                <button class="clear_btn btn">clear</button>
+        </div>
+    </div>
+    <div class="contentContainer">
+        <div class="summaryOrPoints" id="summaryOrPoints"></div>
+    </div>
+    <script src="./popup.js" defer></script>
+</body>
+
+</html>
